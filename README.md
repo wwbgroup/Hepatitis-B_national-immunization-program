@@ -45,7 +45,7 @@ Scripts in folders `Scripts_SEIR_main`, `Scripts_SEIR_figure`, `Scripts_SEIR_sen
     * `Decision Tree-Markov Model.trex`
 
 #### Folder `Scripts_SEIR_main`
-Matlab scripts are used for our main analyses which conclude folder `model estimation and fitting` and `scenarios simmulation and prediction`.
+Matlab scripts are used for our main analyses.
 
 
 
