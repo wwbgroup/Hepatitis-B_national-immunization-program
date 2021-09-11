@@ -4,7 +4,7 @@ Code and data supporting the paper "Impact and cost-effectiveness of the nationa
 ## Table of Contents
 * Background
 * Analysis softwares
-* Prerequisite R packages
+* Prerequisite third-party R packages
 * Descriptions of folders, scripts and other files
 * Maintainers
 
@@ -14,7 +14,9 @@ In this paper, we implemented dynamic models and a decision tree-Markov model to
 ### Analysis softwares
 * Matlab
 * R language
+* TreeAge Pro 2019
 * Microsoft Excel
+
 
 ### Prerequisite R packages
   * library(ggplot2)
@@ -39,9 +41,35 @@ Scripts in folders `Scripts_SEIR_main`, `Scripts_SEIR_figure`, `Scripts_SEIR_sen
   * `Scripts_SEIR_sensitivity`
    * `S6_Fig_part`
    * `S7_Fig_part`
+  * `Scripts_Markov_analysis`
+   * `Decision Tree-Markov Model.trex`
 
 #### Folder `Scripts_SEIR_main`
 Matlab scripts are used for our main analyses which conclude folder `model estimation and fitting` and `scenarios simmulation and prediction`.
+
+
+
+
+
+####Folder `Scripts_Markov_analysis`
+
+  **Click the following modules in order in the `TreeAge Pro 2019`.**
+
+* Cost-effectiveness analysis
+  
+ **Steps:** Analysis→Cost-effectiveness→Text report
+
+* Cohort analysis
+ 
+ **Steps:** Analysis→Markov Cohort→Enter the number of children in the birth queue and stages→Summary report
+
+* Sensitivity analyses
+ 
+ **Steps:**
+  
+ 1. One-way sensitivity: Analysis→Sensitive Analysis→Tornado Diagram→Select the required variables and enter the upper and lower value
+ 
+ 2. Probabilistic sensitivity analysis: Analysis→Monte Carlo simulation→Sampling (Probabilistic Sensitivity) →Number of samples(10000) → ICE scatterplot
 
 
 
