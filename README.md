@@ -33,16 +33,16 @@ Scripts in folders `Scripts_SEIR_main`, `Scripts_SEIR_figure`, `Scripts_SEIR_sen
 
 * Tree map of the folders
   * `Scripts_SEIR_main`
-   * `model estimation and fitting`
-   * `scenarios simmulation and prediction`
+    * `model estimation and fitting`
+    * `scenarios simmulation and prediction`
   * `Scripts_SEIR_figure`
-   * `Model_output`
-   * `Figure.R` (include Fig.1-4 and S5.Fig )
+    * `Model_output`
+    * `Figure.R` (include Fig.1-4 and S5.Fig )
   * `Scripts_SEIR_sensitivity`
-   * `S6_Fig_part`
-   * `S7_Fig_part`
+    * `S6_Fig_part`
+    * `S7_Fig_part`
   * `Scripts_Markov_analysis`
-   * `Decision Tree-Markov Model.trex`
+    * `Decision Tree-Markov Model.trex`
 
 #### Folder `Scripts_SEIR_main`
 Matlab scripts are used for our main analyses which conclude folder `model estimation and fitting` and `scenarios simmulation and prediction`.
