@@ -1,0 +1,22 @@
+function [D,S,E,A1,A2,A3,Ic,Iu,Id,R,CD,HCC,X12,Hor,dcc,C5,RW3,RW1] = ObjFun3(defr1r2r3t1t2t3,tspan,x0)
+parameter = load('parameter c.mat');
+[~,x] = ode45(@(t,x)ODEfunction(t,x,defr1r2r3t1t2t3,parameter),tspan,x0);
+D = [x(1,8)+x(1,12);x(2:end,8)-x(1:end-1,8)+x(2:end,12)-x(1:end-1,12)];
+S = x(:,1);
+E = x(:,2);%ʵʱI
+A1 =x(:,3);%ʵʱU
+A2 =x(:,4);
+A3 =x(:,5);
+Ic = x(:,6);
+Iu =x(:,7);
+Id =x(:,8);
+R = x(:,9);
+CD =x(:,10);
+HCC =x(:,11);
+X12 =x(:,12);
+Hor = x(:,13);
+dcc =x(:,14);
+C5 =x(:,15);
+RW3 =x(:,16);
+RW1 =x(:,17);
+
