@@ -39,7 +39,7 @@ Scripts in folders `Scripts_SEIR_main`, `Scripts_SEIR_figure`, `Scripts_SEIR_sen
    * `scenarios simmulation and prediction`
   * `Scripts_SEIR_figure`
    * `Model_output`
-   * `Figure.R` (include Fig.1-4 and S5.Fig )
+   * `Figure.R` (include Fig.1-4 and S5-6.Fig )
   * `Scripts_SEIR_sensitivity`
    * `S6_Fig_part`
    * `S7_Fig_part`
@@ -96,7 +96,7 @@ The `Figure.R` for the figures of main and sensitivity analyses. And the data, w
  2. Probabilistic sensitivity analysis: Analysis→Monte Carlo simulation→Sampling (Probabilistic Sensitivity) →Number of samples(10000) → ICE scatterplot
 
 ### Maintainers
-[Contact](wwb@fudan.edu.cn)
+@(wwb@fudan.edu.cn)
 
 
 
